@@ -1,9 +1,6 @@
-<!DOCTYPE html><html><head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width">
-<title>東京で感じる福井マップ</title>
-<script type="module" src="https://taisukef.github.io/s/module.js"></script>
-<script type="text/yaml">
+title = "東京で感じる福井マップ"
+script = "https://taisukef.github.io/s/module.js"
+yaml = """
   accessToken: pk.eyJ1IjoidGFpc3VrZWYiLCJhIjoiY2tueDN5a3JxMGdkaTJvbjRncWt1MDhiYiJ9.j_BtkymGTluTHkMVPHa8Hw
   title: 東京で感じる福井マップ
   style: https://optgeo.github.io/b3p/style.json
@@ -11,5 +8,4 @@
   footer: >-
     <p>出展：<a href=https://www.pref.fukui.lg.jp/doc/tokyo/fukuinoasiato/fukuinoasiato.html>ふくいの足跡 in 東京 | 福井県ホームページ</a><br>
     <p>紹介: <a href=https://github.com/code4fukui/tokyo-fukui-map/>tokyo-fukui-map by Code for Fukui</a></p>
-    <p><a href='https://github.com/optgeo'>Adopt Geodata プロジェクト</a> を活用しています。</p></script>
-</head></html>
+    <p><a href='https://github.com/optgeo'>Adopt Geodata プロジェクト</a> を活用しています。</p>"""
